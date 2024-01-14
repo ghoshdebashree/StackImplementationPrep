@@ -21,7 +21,7 @@ class Stack <V> {
         return max_Size;
     }
 
-    public V top() {
+    public V top(){
         if (isEmpty())
             return null;
         return arr[top];
